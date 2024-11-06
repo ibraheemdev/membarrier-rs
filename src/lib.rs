@@ -68,6 +68,7 @@ extern crate cfg_if;
 #[macro_use]
 extern crate lazy_static;
 extern crate libc;
+#[cfg(windows)]
 extern crate windows_sys;
 
 #[allow(unused_macros)]
